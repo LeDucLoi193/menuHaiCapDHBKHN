@@ -1,0 +1,50 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#wrapper {
+	width: 1500px;
+	margin: 0px auto;
+}
+
+#header {
+	background: #B50100;
+	height: 100px;
+}
+
+#menu {
+	margin-top: 10px;
+	background: #4B4B4B;
+	height: 60px;
+}
+#menu > ul > li {
+	display: inline-block;
+	padding: 0px 15px;
+	position: relative;
+}
+#menu ul li a {
+	text-decoration: none;
+	line-height: 60px;
+	display: block;
+	padding: 0px 18px;
+	color: white;
+}
+#menu > ul > li > a:hover {
+	background-color: #333333;
+	color: white;
+}
+.menuCapHai {
+	display: none;
+	position: absolute;
+	background-color: #333333;
+	margin: 0px 15px;
+}
+#menu ul li:hover > ul {
+	display: block;
+	left: 0px;
+	top: 100%;
+	width: 290px;
+}
+
